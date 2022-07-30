@@ -1,22 +1,22 @@
 [
-    {
-      "ParameterKey": "GitHubRepo",
-      "ParameterValue": "codepipeline-ecr-build-sf-execution"
+  {
+    "ParameterKey": "GitHubRepo",
+    "ParameterValue": "codepipeline-ecr-build-sf-execution"
+  },
+  {
+      "ParameterKey": "GitHubBranch",
+      "ParameterValue": "main"
     },
     {
-        "ParameterKey": "GitHubBranch",
-        "ParameterValue": "master"
-      },
-      {
-        "ParameterKey": "GitHubToken",
-        "ParameterValue": ""
-      },
-      {
-        "ParameterKey": "GitHubUser",
-        "ParameterValue": ""
-      },
-      {
-        "ParameterKey": "MlOpsStepFunctionArn",
-        "ParameterValue": ""
-      }
+      "ParameterKey": "GitHubToken",
+      "ParameterValue": "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"
+    },
+    {
+      "ParameterKey": "GitHubUser",
+      "ParameterValue": "AnkitaRastogi-15"
+    },
+    {
+      "ParameterKey": "MlOpsStepFunctionArn",
+      "ParameterValue": "arn:aws:states:us-east-1:339718522122:stateMachine:MLOpsStepFunction-339718522122"
+    }
 ]
